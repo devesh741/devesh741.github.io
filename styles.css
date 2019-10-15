@@ -6,7 +6,9 @@ html {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background: url(football-pitch.jpg);
+  background-image: url(football-pitch.jpg);
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   opacity:0.7;
@@ -14,14 +16,14 @@ body {
 }
 
 h1  {
-  font-size: 60px;
+  font-size: 50px;
 }
 
 p {
   font-size: 20px;
 }
 
-.jumbotron, .jumbotron-fluid {
+.jumbotron {
   opacity: 0.7;
   background-color: #FF3A48;
   color: #FFFFFF;
@@ -29,21 +31,19 @@ p {
 
 .main-content {
   color: #FFFFFF;
-  align-items: center;
-  margin-top: 100px;
   padding-left: 100px;
-  padding-right: 100px;
+  padding-top: 5px;
 }
 
 .btn {
   opacity: 0.9;
   background-color: #FF3A48;
   color: #FFFFFF;
-  margin-top: 25px;
+  position: absolute;
+  top: 100%;
 }
 
 #mc_embed_signup {
-  margin-top: 350px;
   text-align: center;
   font:14px Montserrat,sans-serif;
   }
